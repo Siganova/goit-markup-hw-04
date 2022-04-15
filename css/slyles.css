@@ -167,7 +167,8 @@ margin-left: 93px;
   fill: currentColor;
 }
 
-.clients-link:hover .contacts-icon { 
+.clients-link:hover .contacts-icon,
+.clients-link:focus .contacts-icon { 
   fill: var(--accent-color);
 }
 
@@ -389,12 +390,14 @@ border-radius: 0px 0px 4px 4px;
   padding: 12px;
 }
 
-.socialmedia-link:hover {
+.socialmedia-link:hover,
+.socialmedia-link:focus {
   background-color: var(--accent-color);
   border-radius: 50%;
 }
 
-.socialmedia-link:hover .team-icon {
+.socialmedia-link:hover .team-icon, 
+.socialmedia-link:focus .team-icon {
   fill: var(--primary-white-color);
 }
 
@@ -423,11 +426,13 @@ fill: var(--clients-svg-color);
   border: 1px solid currentColor;
 }
 
-.clients-item:hover {
+.clients-item:hover,
+.clients-item:focus {
   color: var(--accent-color);
 }
 
-.clients-item:hover .clients-link{
+.clients-item:hover .clients-link,
+.clients-item:focus .clients-link {
   color: var(--accent-color);
 }
 
@@ -439,8 +444,8 @@ fill: var(--clients-svg-color);
 fill: currentColor;
 }
 
-
 /* Footer */
+
 .page-footer {
   display: flex;
   background-color: var(--accent-bg-color);
@@ -483,10 +488,10 @@ fill: currentColor;
 }
 
 /* Присоединяйтесь */
+
 .join {
   margin-top: 12px;
   margin-left: 70px;
-  
 }
 
 .join-caption {
@@ -515,7 +520,8 @@ fill: currentColor;
   border-radius: 50%;
 }
 
-.join-socialmedia-link:hover {
+.join-socialmedia-link:hover,
+.join-socialmedia-link:focus {
   background-color: var(--accent-color);
 }
 
